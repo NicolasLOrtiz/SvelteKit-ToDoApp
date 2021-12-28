@@ -1,11 +1,9 @@
 <script>
-	import '../global.css';
-	import SideBar from '../components/SideBar/SideBar.svelte';
+    import '../global.css';
 </script>
 
 <div class="flex">
-	<SideBar />
-	<div class="container mx-auto my-6 max-w-lg">
-		<slot />
-	</div>
+    <div class="container mx-auto my-6 max-w-lg">
+        <slot/>
+    </div>
 </div>
